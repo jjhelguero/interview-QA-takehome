@@ -1,0 +1,15 @@
+{
+  "name": "simspace_qatakehome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^8.7.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "author": "jjhelguero",
+  "license": "ISC"
+}
