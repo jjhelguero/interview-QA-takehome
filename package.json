@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "@bahmutov/cy-api": "^1.6.0",
     "cypress": "^8.7.0",
     "cypress-audit": "^1.1.0",
     "cypress-repeat": "^2.3.0"
