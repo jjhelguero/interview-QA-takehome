@@ -1,4 +1,4 @@
-# simSpace_QAtakeHome
+# QAtakeHome
 
 Cypress tests are in the automationTests/cypress/integration/ directory. I used [Cypress](https://www.cypress.io) for automation tests.
 
