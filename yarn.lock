@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@bahmutov/cy-api@2.2.4":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@bahmutov/cy-api/-/cy-api-2.2.4.tgz#0e79598d5476c75c120011e0cb0e69d3cec25677"
-  integrity sha512-nOEUfGBqhisd62wL/Qd5RBYmxiyLnBYRl7IIwzlUzXqZzwjevmREmBYG+tzgub/n08ebf186QSSNqwK8t05zXw==
+"@bahmutov/cy-api@2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@bahmutov/cy-api/-/cy-api-2.2.6.tgz#e574085d3106a0b96c16c5013d3de1f913e56b1f"
+  integrity sha512-A7G7RRwyrSx+e41yL69Tt3mYklmXtyQ1k2zjA4tHJK5pvGfZZ94SJRfo54EoNH79H/mKtHrcJML+LEV+9SOA0g==
   dependencies:
-    "@types/common-tags" "1.8.1"
+    "@types/common-tags" "1.8.2"
     common-tags "1.8.2"
     highlight.js "11.4.0"
 
@@ -136,10 +136,10 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/quickjs-emscripten/-/quickjs-emscripten-0.23.0.tgz#db4ecfd499a9765ab24002c3b696d02e6d32a12c"
   integrity sha512-C5Mc6rdnsaJDjO3UpGW/CQTHtCKaYlScZTly4JIu97Jxo/odCiH0ITnDXSJPTOrEKk/ycSZ0AOgTmkDtkOsvIA==
 
-"@types/common-tags@1.8.1":
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/@types/common-tags/-/common-tags-1.8.1.tgz#a5a49ca5ebbb58e0f8947f3ec98950c8970a68a9"
-  integrity sha512-20R/mDpKSPWdJs5TOpz3e7zqbeCNuMCPhV7Yndk9KU2Rbij2r5W4RzwDPkzC+2lzUqXYu9rFzTktCBnDjHuNQg==
+"@types/common-tags@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@types/common-tags/-/common-tags-1.8.2.tgz#04a2fed0597d18b6eb5eb9d24b62905041c572c9"
+  integrity sha512-Z5UcOnlqxFm0tCCTEhkcVOfSihWOMyKypIWHtQNSYh6fMdPUIVpNdLBYutDpDXVHsMUrYzI2IczUHXIzpUovmQ==
 
 "@types/node@*":
   version "20.6.0"
