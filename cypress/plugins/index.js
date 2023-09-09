@@ -17,21 +17,8 @@
  */
 // eslint-disable-next-line no-unused-vars
 
-const { lighthouse, pa11y, prepareAudit } = require("cypress-audit");
 
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
-    on("before:browser:launch", (browser = {}, launchOptions) => {
-        prepareAudit(launchOptions);
-    });
-
-    on("task", {
-        lighthouse: lighthouse((lighthouseReport) => {
-            console.log(lighthouseReport); // raw lighthouse reports
-        }),
-        pa11y: pa11y((pa11yReport) => {
-            console.log(pa11yReport); // raw pa11y reports
-        }),
-    });
 }

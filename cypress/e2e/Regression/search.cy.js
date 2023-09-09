@@ -1,11 +1,8 @@
 describe('Search Functionality', function () {
-    before(() => {
+    beforeEach(() => {
         cy.intercept('GET','https://dog.ceo/api/breeds/list/all').as('getAllBreeds')
         cy.visit('/')
         cy.wait('@getAllBreeds')
-    })
-
-    beforeEach(()=> {
         cy.get('input[placeholder]')
             .clear()
     })
