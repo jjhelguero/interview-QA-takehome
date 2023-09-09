@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "@bahmutov/cy-api": "2.2.4",
-    "cypress": "12.14.0",
+    "cypress": "12.17.4",
     "cypress-audit": "^1.1.0",
     "cypress-repeat": "^2.3.0"
   },
