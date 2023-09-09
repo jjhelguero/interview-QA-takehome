@@ -1,5 +1,7 @@
 const { defineConfig } = require('cypress')
 const { lighthouse, prepareAudit } = require("@cypress-audit/lighthouse");
+const { pa11y } = require("@cypress-audit/pa11y");
+
 
 
 module.exports = defineConfig({
@@ -13,8 +15,8 @@ module.exports = defineConfig({
 
       on("task", {
         lighthouse: lighthouse(),
+        pa11y: pa11y(console.log.bind(console)),
       });
-      return require('./cypress/plugins/index.js')(on, config)
     },
     baseUrl: 'https://build-cy717a5fk.now.sh/',
   },
