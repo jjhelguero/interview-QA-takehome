@@ -12,7 +12,8 @@
     "cypress-repeat": "^2.3.0"
   },
   "scripts": {
-    "test": "cypress open --e2e"
+    "test": "cypress open --e2e",
+    "ci-test": "cypress run"
   },
   "author": "jjhelguero",
   "license": "ISC"
