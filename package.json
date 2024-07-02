@@ -8,7 +8,7 @@
     "@bahmutov/cy-api": "2.2.6",
     "@cypress-audit/lighthouse": "^1.4.2",
     "@cypress-audit/pa11y": "^1.4.2",
-    "cypress": "13.10.0",
+    "cypress": "13.13.0",
     "cypress-repeat": "^2.3.0"
   },
   "scripts": {
