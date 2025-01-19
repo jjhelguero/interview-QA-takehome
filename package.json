@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "@bahmutov/cy-api": "2.2.7",
+    "@bahmutov/cy-api": "2.2.8",
     "@cypress-audit/lighthouse": "^1.4.2",
     "@cypress-audit/pa11y": "^1.4.2",
     "cypress": "14.0.0",
