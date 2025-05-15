@@ -557,13 +557,13 @@ csp_evaluator@1.1.1:
   integrity sha512-N3ASg0C4kNPUaNxt1XAvzHIVuzdtr8KLgfk1O8WDyimp1GisPAHESupArO2ieHk9QWbrJ/WkQODyh21Ps/xhxw==
 
 cypress-repeat@^2.3.0:
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/cypress-repeat/-/cypress-repeat-2.3.8.tgz#9253a5d8237180d7de6ef917a93b72ed5e61e8e7"
-  integrity sha512-8kZZT2nXUn6L3RdPYdR3HiI7AhMZ/9wc0ayxjLeb3nQ5arK1x94mRH7AyLt3tdofeYrMiDSjCEUgxbpgfDmqaA==
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/cypress-repeat/-/cypress-repeat-2.3.9.tgz#04b8547d6704aa69ccc5a1e0e407c1793a750e01"
+  integrity sha512-YFNG9uwQJDMe/JQ+bYCbb3EMMLm6fKuZV6TaqDTg+FyJXSDgcOjdiN0u1E894RNvoPJg8cTY0427nHir5rImXw==
   dependencies:
     arg "5.0.2"
     bluebird "3.7.2"
-    debug "4.4.0"
+    debug "4.4.1"
     dotenv "8.2.0"
 
 cypress@14.3.3:
@@ -639,10 +639,10 @@ debug@4, debug@4.3.4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.4:
   dependencies:
     ms "2.1.2"
 
-debug@4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.4.0.tgz#2b3f2aea2ffeb776477460267377dc8710faba8a"
-  integrity sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==
+debug@4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.4.1.tgz#e5a8bc6cbc4c6cd3e64308b0693a3d4fa550189b"
+  integrity sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==
   dependencies:
     ms "^2.1.3"
 
