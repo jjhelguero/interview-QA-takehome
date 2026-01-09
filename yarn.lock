@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@bahmutov/cy-api@2.2.8":
-  version "2.2.8"
-  resolved "https://registry.yarnpkg.com/@bahmutov/cy-api/-/cy-api-2.2.8.tgz#8638c802af8c6ab9b9b761c134ac71517046a4a1"
-  integrity sha512-wYgbb6I3I7wGCeErjpycInwGkciituZIW1n6gnPYP+SGKLZyzjcIEs+EOe5Sw1CrsMAkVSxf52z3PP7ek+6xCQ==
+"@bahmutov/cy-api@2.2.9":
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/@bahmutov/cy-api/-/cy-api-2.2.9.tgz#779104bd8caf88b0ac2479c780d50221f17c18c1"
+  integrity sha512-tDFU0o6YGhDOklsR/N4WsqvA6dxTQecKKFWOn7sfb1/g0VBOSVl+vgZ6yxX+NDH07NLR3XQ1XrxVeZloZKcHYQ==
   dependencies:
     "@types/common-tags" "1.8.4"
     common-tags "1.8.2"
