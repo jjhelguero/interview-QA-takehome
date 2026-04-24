@@ -8,10 +8,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Install Dependencies
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7.1.9
         with:
           runTests: false
       - name: Run Tests
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7.1.9
         with:
           install: false
